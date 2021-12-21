@@ -1,0 +1,160 @@
+[raymondang] Ang, Raymond                 65 6637 1857    36055 raymondang   MSA MFG        FCT Prod Operations Management             - -   - -
+[tankai] Tan, Kai                        6505 7941    93894 tankai       MSA MFG        OCT Quality Systems                        - -   - -
+[mdantiochia] D'antiochia, Marcello        65 663 70187   353579 mdantiochia  MIY MFG        InterCo Chrg                               - -   - -
+[enghai] Neo, Eng Hai                  65 62903020   767336 enghai       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[etseah] Seah, Edmund                  65 62903514   767376 etseah       MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[sengyew] Lam, Seng Yew                 65 62903728   767388 sengyew      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[lchung] Chung, Lee Yun                65 62903821   767947 lchung       MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[huikhim] Ng, Hui Khim                  65 62903436   768059 huikhim      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[kianchai] Lee, Kian Chai            M:65 97202245 / W:65 62903515   768068 kianchai     MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[hanny] Rahardja, Hanny               65 62903935   768140 hanny        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[tkoh] Toh, Keng Yong                65 62903357   768147 tkoh         MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903492
+[yshong] Shong, Yee Khim               65 63984956   786426 yshong       MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903492
+[tmkoh] Koh, Tuan Meng                65 62903229   786487 tmkoh        MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[surang] G, Surandran                  65 62903531   786490 surang       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[haobye] Ye, Hao Bo                    65 62903594   786685 haobye       MSA MFG        WW Backend Ops Eng                   1S-410S 150 1DAY 65 62903492
+[thyeo] Yeo, Ting Haw                 65 62903446   786834 thyeo        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[ngcw] Ng, Chee Wah                  65 62903260   786848 ngcw         MSA MFG        OCT Aux IT                           1S-410S 110 1DAY 65 62903492
+[louisegohth] Goh, Louise                   65 62903265   792753 louisegohth  MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[tankokhua] Tan, Kok Hua                  65 62903849   792772 tankokhua    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[tanchunseng] Tan, Chun Seng                65 62903632   792773 tanchunseng  MSA MFG        Test Global                          1S-410S 250 1DAY 65 62903492
+[andychowlt] Chow, Lean Thiam                6290 3243   793120 andychowlt   MSA MFG        WW Backend Ops Eng                   1M-409M -   - -
+[tanszeluan] Tan, Sze Luan                 65 63984375   793288 tanszeluan   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[tankkiang] Tan, Kar Kiang                65 63984746   793398 tankkiang    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[rsumaputra] Sumaputra, Ramon              65 62903686   794630 rsumaputra   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[zhanghong] Zhang, Hong                   65 63984374   794637 zhanghong    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[ranganathan] Padmanaban, Ranganathan   M:65 92705014 / W: 65 62903806   794638 ranganathan  MSA MFG        WW Backend Ops Eng                   1M-409M 210 1DAY 65 62903014
+[allee] Lee, Al                       65 62903809   794649 allee        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[limbeebee] Lim, Bee Bee                  65 63984952   794689 limbeebee    MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[wongshihnern] Wong, Shih Nern               65 62903559   794696 wongshihnern MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[chuaszemin] Chua, Sze Min                 65 63984748   794698 chuaszemin   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[liyan] Li, Yan                       65 62903477   794715 liyan        MSA MFG        WW Backend Ops Eng                   1M-409M 210 1DAY 65 62903014
+[chewkorkiat] Chew, Kor Kiat                65 63984174   794755 chewkorkiat  MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[eileentanyl] Tan, Eileen                   65 62903665   794767 eileentanyl  MSA MFG        WW Backend Ops Eng                   1M-409M 210 1DAY 65 62903014
+[anila] Paul, Anila                   65 62903465   795247 anila        MSA MFG        WW Backend Ops Eng                   1M-409M 210 1DAY 65 62903014
+[hychong] Chong, Hoong Yet             65 6398 4015   795275 hychong      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[scydesmond] Soo, Chin Yoong Desmond       65 63984379   795276 scydesmond   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[chankl] Chan, Kwan Loong              65 62903399   795277 chankl       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[fong] Fong, Frankie                 65 62903254   966794 fong         MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[pohhong] Lim, Poh Hong                 65 63984143   972835 pohhong      MSA MFG        OCT Aux IT                           1S-410S 110 1DAY 65 62903492
+[slkl] Lim, Kok Lay                  65 62903105   973544 slkl         MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[khoosianyong] Khoo, Sian Yong               65 62903614   977214 khoosianyong MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[kctong] Tong, Koh Chew                65 63984958   977316 kctong       MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[laimei] Ng, Lai Mei                   65 62903794   979284 laimei       MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[kcheng] Cheng, Keh Kim                65 62903574   979490 kcheng       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[seahyc] Seah, Yee Choon           M:65 97230026 / W:65 62903199   979596 seahyc       MSA MFG        Test Global                          1S-418S 180 1DAY 65 62903492
+[lamsoonleong] Lam, Soon Leong               65 62903327   979790 lamsoonleong MSA MFG        WW Backend Ops Eng                   1M-409M 300 1DAY 65 62903439
+[oeg] Ong, Eng Guan                 65 62903045   979852 oeg          MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[eugenetang] Tang, Eugene                  65 65057830  1005226 eugenetang   MSA MFG        OCT Quality Systems                        - -   - -
+[wfcleong] Leong, Caesar                 65 65057814  1010155 wfcleong     MSA MFG        OCT Product Integration Eng                - 800 1DAY 65 65057200
+[ahmadmazhar] Bin abu bakar, Ahmad Mazhar     65 65057848  1011082 ahmadmazhar  MSA MFG        OCT Product Integration Eng                - 800 1DAY 65 65057200
+[kahweng] Loh, Kah Weng                 65 65057841  1013811 kahweng      MSA MFG        OCT Product Integration Eng                - 800 1DAY 65 65057200
+[grajasekar] Rajasekar, Govindasamy        65 62904022  1017735 grajasekar   MSA MFG        OCT Aux IT                           1S-418S 018 1DAY 65 62903298
+[yewmeng] Wong, Yew Meng                65 65057845  1027297 yewmeng      MSA MFG        OCT Quality Systems                        - -   - -
+[linglili] Ling, Li Li                   65 65057833  1028501 linglili     MSA MFG        OCT Quality Systems                        - 800 1DAY 65 65057200
+[limkl] Lim, Kian Leong               65 63984751  1028794 limkl        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[amyloi] Loi, Amy                      65 65057829  1029004 amyloi       MSA MFG        OCT Quality Systems                        - 800 1FCT 65 65057200
+[boonpin] Ong, Boon Pin                +65 65057842  1029479 boonpin      MSA MFG        OCT Product Integration Eng                - -   - -
+[ckyew] Yew, Choon Kiat           M:65 96758603 / W:65 66371854  1040677 ckyew        MSA MFG        FCT Prod Operations Management      A10-A4001 600 1DAY 65 66370090
+[irfanabid] Abid, Irfan                   65 63984096  1044919 irfanabid    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[vernonlim] Lim, Vernon                   65 65057821  1047273 vernonlim    MSA MFG        FCT Process & Equipment Group              - 800 1DAY 65 65057200
+[chyeheng] Tang, Chye Heng               65 63984146  1050541 chyeheng     MSA MFG        OCT Aux IT                           1S-410S 110 1DAY 65 62903492
+[bennyong] Ong, Benny                    65 62903035  1051414 bennyong     MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[jamestacata] Tacata, James                 65 63984750  1054639 jamestacata  MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[hanjian] Chan, Han Jian                65 63984749  1057359 hanjian      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[ysgoh] Goh, Yi Shen                  65 63984097  1058140 ysgoh        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[leongkk] Leong, Kin Keong              65 62903633  1058193 leongkk      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[gordonchin] Chin, Gordon                            -  1059360 gordonchin   MSA MFG        Test Global                                - -   - -
+[chengshua] Cheng, Si Hua                 65 62903314  1060196 chengshua    MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903492
+[anqin] Lu, An Qin                    65 62904552  1060425 anqin        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[cheauhuey] Ng, Cheau Huey                65 66371181  1061849 cheauhuey    MSA MFG        FCT Prod Operations Management      A10-A3001 600 1DAY 65 66370080
+[hanjiong] Han, Jiong                    65 65057844  1062014 hanjiong     MSA MFG        OCT Product Integration Eng         A3-OFC_A 800 1DAY 65 65057200
+[sereneho] Ho, Serene                    65 65057828  1063036 sereneho     MSA MFG        OCT Quality Systems                        - -   - -
+[joannlee] Lee, Jo Ann               65 91117935 / 65057825  1063178 joannlee     MSA MFG        FCT Process & Equipment Group              - 800 1DAY 65 65057200
+[tazumi] Yasuyuki, Tazumi              65 62903344  1063237 tazumi       MSA MFG        OCT Aux IT                           1S-418S 018 1DAY 65 62903298
+[christopheng] Ng, Christophe                65 65057837  1063313 christopheng MSA MFG        OCT Training Documentation OE       A3-OFC_A -   - -
+[yixuan] Ang, Yi Xuan                    663 70255  1063661 yixuan       MSA MFG        FCT Prod Operations Management      A10-A5077 -   - -
+[lixin] Li, Xin                       65 65057820  1064097 lixin        MSA MFG        OCT Quality Systems                        - -   - -
+[rafael] Loyola, Rafael                65 63984362  1064169 rafael       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[honpeiling] Hon, Pei Ling                 65 65057817  1064254 honpeiling   MSA MFG        FCT Process & Equipment Group              - 800 1FCT 65 65057200
+[evanter] Ter, Evan                    +65 65057839  1064418 evanter      MSA MFG        OCT Training Documentation OE              - -   - -
+[petersee] See, Peter                              -  1065157 petersee     MSA MFG        OCT Training Documentation OE              - -   - -
+[ehgan] Gan, Eon Hou                  65 62903306  1067591 ehgan        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[kwangsoon] Tan, Kwang Soon               65 65057834  1069690 kwangsoon    MSA MFG        OCT Quality Systems                        - 800 1FCT 65 65057200
+[jiajun] Jia, Jun                      65 65057838  1070953 jiajun       MSA MFG        OCT Training Documentation OE              - -   - -
+[andyteo] Teo, Andy                     65 65057832  1071357 andyteo      MSA MFG        OCT Quality Systems                        - 800 1FCT 65 65057200
+[nyetyun] Yong, Nyet Yun               65 6290 3751  1072894 nyetyun      MSA MFG        Test Global                          1S-410S 110 1DAY 65 6290 3492
+[cheekheng] Lim, Chee Kheng               65 62903149  1072895 cheekheng    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[cheehau] Tan, Chee Hau                 65 62903259  1072990 cheehau      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[simonlai] Lai, Simon                    65 63984380  1073340 simonlai     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[kiewjs] Kiew, Jian Shion              65 63984365  1074148 kiewjs       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[vguillermo] Guillermo, Vernon             65 63984366  1074779 vguillermo   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[rachmatw] Wibowo, Rachmat               65 65057816  1075182 rachmatw     MSA MFG        FCT Process & Equipment Group              - 800 1FCT 65 65057200
+[norefel] Resuma, Norefel Layson        65 63984361  1075317 norefel      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[teheexyan] Teh, Ee Xyan                  65 63984590  1076365 teheexyan    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[ravins] Somasundaram, Ravin           65 65057819  1076454 ravins       MSA MFG        FCT Process & Equipment Group              - 800 1FCT 65 65057200
+[modestovalde] Valdez, Modesto               65 63984243  1077130 modestovalde MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[jtbaclig] Baclig, Jonathan              65 62903567  1077136 jtbaclig     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[lrdeguzm] De guzman, Lester Ryan        65 63984045  1077154 lrdeguzm     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[jglim] Lim, James Brian              65 62903528  1077157 jglim        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[jdsolomo] Solomon, Jerry                65 63984289  1077165 jdsolomo     MSA MFG        Test Global                          1S-410S 250 1DAY 65 62903492
+[kchia] Chia, Dominic                 65 65057836  1077245 kchia        MSA MFG        OCT Quality Systems                        - 800 1FCT 65 65057200
+[ckoh] Koh, Julie                    65 65057835  1078327 ckoh         MSA MFG        FCT Process & Equipment Group              - -   - -
+[teckyeelim] Lim, Terry                    65 65057847  1079336 teckyeelim   MSA MFG        OCT Product Integration Eng                - -   - -
+[klai] Lai, Tony                     65 65057870  1079550 klai         MSA MFG        OCT Quality Systems                 A3-OFC_A -   - -
+[rbmacabi] Macabiog, Ronaldo             65 63984930  1080288 rbmacabi     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[empeleo] Peleo, Eduardo                65 63984376  1080339 empeleo      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[mccolina] Colina, Mark                  65 63984662  1080440 mccolina     MSA MFG        Test Global                          1S-410S 250 1DAY 65 62903492
+[pgdelac] Dela cruz, Paulo              65 63984745  1080815 pgdelac      MSA MFG        Test Global                          1S-410S 180 1DAY 65 62903492
+[jsmedina] Medina, Jaime                 65 63984957  1080882 jsmedina     MSA MFG        Test Global                          1S-418S 120 1DAY 65 62903558
+[ahsia] Sia, Adam                     65 63984245  1080888 ahsia        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[jlgaray] Garay, John Francis           65 62903047  1080924 jlgaray      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[aemorada] Morada, Alexander            65 6398 4386  1080925 aemorada     MSA MFG        Test Global                          1S-410S 110 1DAY 65 6290 3492
+[jrmalics] Malicse, Julius Caezar        65 63984385  1080950 jrmalics     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[markanthony] Grande, Mark                  65 63984384  1080968 markanthony  MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[ggerard] Garay, Gerard                 65 63984372  1081950 ggerard      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[jdomingo] Domingo, Julie Ann            65 63984369  1081964 jdomingo     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[cgarcia] Garcia, Carmelo               65 63984367  1082895 cgarcia      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[joycetuge] Tuge, Joyce                   65 63984621  1083726 joycetuge    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[yeewan] Lim, Yee Wan                  65 62903772  1083728 yeewan       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[boonping] Ong, Boon Ping                65 63984661  1083729 boonping     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[bcchiam] Chiam, Boon Chuan             65 63984099  1083782 bcchiam      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[suklee] Yii, Suk Lee                  65 62903963  1083783 suklee       MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[mongsoon] Ling, Mong Soon               65 65057850  1084926 mongsoon     MSA MFG        OCT Product Integration Eng                - 800 1DAY 65 95057200
+[keshav] Kamat, Keshav                 65 66370346  1085104 keshav       MSA MFG        FCT Prod Operations Management      A10-A3001 600 1DAY 65 66370080
+[yanghao] Yang, Yang Hao                65 66370253  1085705 yanghao      MSA MFG        FCT Prod Operations Management             - -   - -
+[tanchiayng] Tan, Chia Yng                 65 62903198  1085903 tanchiayng   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[kongmin] Tan, Kong Min                 65 63984378  1086380 kongmin      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[angus] Xiao, Angus                   65 66370254  1088763 angus        MSA MFG        FCT Prod Operations Management      A10-A5077 -   - -
+[cranchores] Anchores, Christina           65 62903575  1089497 cranchores   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[carlineteh] Teh, Carline                  65 63984123  1089702 carlineteh   MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[manakdunggau] Dunggau, Markwinston          65 62903385  1092641 manakdunggau MSA MFG        OCT Aux IT                           1S-418S 018 1DAY 65 62903298
+[kienhan] Lim, Han                      65 63984373  1098565 kienhan      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[rajjul] Rajjulias, Joseph Raj         65 62903244  1098568 rajjul       MSA MFG        OCT Aux IT                           1S-418S 018 1DAY 65 62903298
+[soonyee] Seh, Soon Yee                 65 63984318  1101391 soonyee      MSA MFG        WW Backend Ops Eng                   1S-410S 150 1DAY 65 62903492
+[chuakc] Chua, Kai Chun               65 6398 4551  1101760 chuakc       MSA MFG        Test Global                          1S-410S 110 1DAY 65 6290 3492
+[imkeh] Lim, Im Keh                   65 63984627  1104557 imkeh        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[dhika] Pratyangga, Dhika Satria      65 63984589  1104567 dhika        MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[choonhian] Chai, Choon Hian              65 63984586  1104570 choonhian    MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[leongkw] Leong, Kit Wai                65 63984584  1104574 leongkw      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[derzhan] Chee, Der Zhan                65 63984585  1104575 derzhan      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[huaiseng] Koo, Isaac                    65 63984635  1105009 huaiseng     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[weekiat] Heng, Wee Kiat                65 63984592  1105012 weekiat      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[chinhoi] Lai, Chin Hoi                 65 63984593  1105013 chinhoi      MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[howboonseng] How, Boon Seng                          -  1105205 howboonseng  MSA MFG        Test Global                                - -   - -
+[rogerhor] Hor, Roger                    65 63984702  1105711 rogerhor     MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[lampuisuan] Lam, Pui Suan                 65 62903581  1107317 lampuisuan   MSA MFG        WW Backend Ops Eng                   1M-409M 210 1DAY 65 62903014
+[stanleylai] Lai, Stanley                  65 63984588  1107728 stanleylai   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[boonzhiu] Chua, Ivue                   65 6290 3530  1118898 boonzhiu     MSA MFG        Test Global                          1S-410S 110 1DAY 65 6290 3492
+[christinelis] Lisun, Christine             65 6290 3152  1119469 christinelis MSA MFG        Test Global                          1S-410S 110 1DAY 65 6290 3492
+[xiaowen] Tang, Xiaowen                 65 63984543  1119471 xiaowen      MSA MFG        WW Backend Ops Eng                   1M-409M -   - -
+[siangleong] Soon, Siang Leong            65 6398 4908  1119690 siangleong   MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[sweejen] Cho, Swee Jen                 65 62903031  1119988 sweejen      MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[huifen] Tan, Hui Fen                 65 6398 4942  1120263 huifen       MSA MFG        Test Global                          1S-410S 110 1DAY 65 6290 3492
+[siaufen] Goh, Siau Fen                 65 63984114  1122488 siaufen      MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[balakumaranr] Ruppa damodaran, Balakumaran     65 62903148  1128074 balakumaranr MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[jefferykong] Kong soon jye, Jeffery        65 63984591  1135751 jefferykong  MSA MFG        Test Global                          1S-410S 110 1DAY 65 62903492
+[christinecky] Chin, Christine               65 63984973  8001214 christinecky MSA MFG        WW Backend Ops Eng                   1S-418S 022 1DAY 65 62903184
+[kokowin] Win, Ko Ko                    65 65057831  9005279 kokowin      MSA MFG        OCT Quality Systems                        - -   - -
+[karthiks] Sudhakar gurunathan, Karthik     65 65057963  9006107 karthiks     MSA MFG        OCT Product Integration Eng         A3-OFC_A -   - -
+[aaronhah] Hah, Aaron                M:65 96566748 / W:65 63607359  1059888 aaronhah     MSA MFG        Fab 7 Planning                         3-332 -   - -

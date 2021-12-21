@@ -1,0 +1,34 @@
+#!/usr/bin/python
+
+# This script will copy the current 'trunk' to 'tags' based on today's data
+
+
+import os
+import sys
+import re
+import time
+
+APP_ID = "wizardry-tournament"
+
+URL =  'https://subversion.assembla.com/svn/cghtkh/%s' % APP_ID
+release =  time.strftime("%y%m%d", time.localtime())
+
+# check if tag already exists
+cmd = "svn ls %s/tags" % (URL)
+print "Checking if tag R%s exists. Please wait ..." % release
+tags  = map(lambda x:x.strip(), os.popen(cmd).readlines())
+new_tag = '%s_R%s/' % (APP_ID, release)
+if new_tag in tags:
+   print "Tag already exists."
+   sys.exit(256)
+
+cmd = "svn cp %s/trunk %s/tags/%s_R%s -m 'Create tag R%s for release.'" % (URL,URL, APP_ID, release, release)
+print cmd
+ans = raw_input('\nPerform above svn tag command (y/n)?: ')
+
+if ans=='y':
+   print "Starting svn tag ..."
+   if os.system(cmd)>>8:
+      pass
+   else:
+      print 'Tag <%s_R%s> successfully created.' % (APP_ID, release)

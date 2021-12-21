@@ -1,0 +1,137 @@
+{% extends "templates/_base.htm" %}
+{% block stylesheet %}
+<style type="text/css">
+        #order {
+                font-size:30px;
+                color:white;
+                text-align:center;
+        }
+</style>
+{% endblock %}
+{% block javascript %}
+<!--
+         <script type="text/javascript" src="/static/javascripts/jquery-1.2.2.pack.js"></script>
+-->
+         <script type="text/javascript">
+
+            $(document).ready(function() {$("#sides").hide();  vex.defaultOptions.className='vex-theme-os';} ); 
+
+            function showSides() { $("#sides").show(); }
+            function hideSides() { $("#sides").hide(); }
+
+            function getSides() {
+                var c = document.getElementsByName("sides");
+                var s = new Array();
+                for (var i=0; i<c.length; i++) {
+                        if(c[i].checked) {
+                           s.push(c[i].value);
+                        }
+                }
+                return s;
+            }
+
+            function validateRadio(name, msg) {
+
+                var r = document.getElementsByName(name);
+                var c = "";
+                for (var i=0; i<r.length; i++) {
+                        if(r[i].checked) {
+                           c = r[i].value;
+                        }
+                }
+                if(c.length==0) { vex.dialog.alert(msg); }
+                return c;
+            }
+
+            function getOrder() {
+                var username = document.getElementById("username").value;
+                if(username.length==0) { vex.dialog.alert("Please enter your username."); return; }
+
+                var main_course = validateRadio("main_course", "Please select a main course.");
+                if(main_course=="") { return false; }
+
+                var sides = "";
+                if(main_course.search("Burger") == -1) {
+                    sides = getSides();
+                    if (sides.length!=2) {
+                         vex.dialog.alert("You need to select 2 sides.");
+                         return;
+                    }
+                    sides = sides.toString();
+                } 
+
+                var drink = validateRadio("drink", "Please select a drink.");
+                if(drink=="") { return false; }
+
+                /*
+                $("#order").css({"color":"#ffff33","display":"none"});
+                $("#order").fadeIn(1000);
+                $("#order").html("Processing your order ...");
+                */
+                $.ajax( {
+                    type:'POST',
+                    url:'/getOrder',
+                    data:{'username': username, "drink":drink, "main_course":main_course, "sides":sides},
+                    cache:false,
+                    success: function(html) {
+                      /*$("#order").html(html);*/   
+                      vex.dialog.alert(html.substring(html.indexOf("<p>")+3, html.indexOf("</p>")));
+                    },
+                    error: function(xrq, sts, err) {$("#order").val("Error");},
+                });
+            }
+         </script>
+{% endblock %}
+
+{% block bodycontent %}
+<div id="header"> The Welcoming Feast</div>
+<meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+<p id="feast"> Enter your username:<br>
+<input type="text" id="username" value={{username}}></p>
+<p id="feast"> Select your main course:</p>
+<table border=0 id="item">
+ <tr><td> <input type="radio" name="main_course" value="Beefy Jack Burger" onclick="hideSides();"> Beefy Jack Burger </td></tr>
+ <tr><td> <input type="radio" name="main_course" value="Chargrill Chicken" onclick="showSides();"> Chargrill Chicken (with 2 sides)</td></tr>
+ <tr><td> <input type="radio" name="main_course" value="Crispy Fried Fish" onclick="showSides();"> Crispy Fried Fish (with 2 sides)</td></tr>
+</table>
+<div id="sides">
+<p id="feast"> Select 2 sides: </p>
+<table border=0 id="item">
+ <tr><td> <input type="checkbox" name="sides" value="Coleslaw"> Coleslaw</td>
+     <td> <input type="checkbox" name="sides" value="French Fries"> French Fries</td> 
+     <td> <input type="checkbox" name="sides" value="Potato Salad"> Potato Salad</td>
+     <td> <input type="checkbox" name="sides" value="Pasta Salad"> Pasta Salad</td>
+</tr><tr>
+     <td> <input type="checkbox" name="sides" value="Mac & Cheese"> Mac & Cheese</td> 
+     <td> <input type="checkbox" name="sides" value="House Salad"> House Salad</td>
+     <td> <input type="checkbox" name="sides" value="Mashed Potato"> Mashed Potato</td> 
+</tr><tr>
+     <td> <input type="checkbox" name="sides" value="Baked Potato"> Baked Potato</td>
+     <td> <input type="checkbox" name="sides" value="Onion Rings"> Onion Rings</td> 
+     <td> <input type="checkbox" name="sides" value="BBQ Beans"> BBQ Beans</td>
+</tr><tr>
+     <td> <input type="checkbox" name="sides" value="Potato Wedges"> Potato Wedges</td> 
+     <td> <input type="checkbox" name="sides" value="Corn on the Cob"> Corn on the Cob</td>
+     <td> <input type="checkbox" name="sides" value="Tasty Rice"> Tasty Rice</td> 
+</tr>
+</table>
+</div>
+<p id="feast"> Select your drink: </p>
+<table border=0 id="item">
+ <tr><td> <input type="radio" name="drink" value="Plain Water">Plain Water</td>
+     <td> <input type="radio" name="drink" value="Pepsi">Pepsi</td>
+     <td> <input type="radio" name="drink" value="7-Up">7-Up</td>
+</tr><tr>
+     <td> <input type="radio" name="drink" value="Mug Rootbeer">Mug Rootbeer</td>
+     <td> <input type="radio" name="drink" value="Mug Grape">Mug Grape</td>
+     <td> <input type="radio" name="drink" value="Hot Tea">Hot Tea</td>
+</tr><tr>
+     <td> <input type="radio" name="drink" value="Specialty Tea">Specialty Tea</td>
+     <td> <input type="radio" name="drink" value="Espresso">Espresso</td>
+     <td> <input type="radio" name="drink" value="Freshly Brewed Coffee">Freshly Brewed Coffee</td>
+</tr>
+</table>
+
+<p id="house"><input type=button value="Submit your order" onclick="getOrder();"></p>
+<div id="order" align="center"><p>{{order}}</p></div>
+{% endblock %}

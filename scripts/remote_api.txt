@@ -1,0 +1,12 @@
+%> remote_api_shell.py wizardry-tournament
+s~wizardry-tournament> import sys
+s~wizardry-tournament> sys.path.append('.')  # point to where "kinds.py" is.
+s~wizardry-tournament> from kinds import *
+s~wizardry-tournament> orders = Order.all()
+s~wizardry-tournament> f = open("orders.csv", "w")
+s~wizardry-tournament> for order in orders:
+...     line = "%s,%s,%s\n" % (order.user, order.main_course, order.drink)
+...     f.write(line)
+...
+s~wizardry-tournament> f.close()
+s~wizardry-tournament> exit()

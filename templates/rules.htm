@@ -1,0 +1,45 @@
+{% extends "templates/_base.htm" %}
+{% block stylesheet %}
+<style type="text/css">
+        #order {
+                font-size:30px;
+                color:white;
+                text-align:center;
+        }
+        div#rules {
+                background-image:url('/static/images/scroll.png');
+                width:720px;
+                height:560px;
+        }
+        #footnote { 
+                margin-left:auto;
+                margin-right:auto;
+                color:#ff9;
+                text-align:center;
+                font-size:18px;
+                font-family:Lumos;
+        }
+</style>
+{% endblock %}
+{% block javascript %}
+         <script type="text/javascript" src="/static/javascripts/jquery-1.2.2.pack.js"></script>
+{% endblock %}
+
+{% block bodycontent %}
+<div id="header"> The House Rules</div>
+<meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+<div id="rules">
+<br><br><br>
+<table border=0 id="rules">
+ <tr><td></td></tr>
+ <tr><td>  1. Thou Shalt wear your Green/Black OCT T-Shirt</td></tr>
+ <tr><td>  2. Thou Shalt arrive on Time</td></tr>
+ <tr><td>  3. Thou Shalt move around in Teams</td></tr>
+ <tr><td>  4. Thou Shalt not be Weak</td></tr>
+ <tr><td>  5. Thou Shalt not bully the Game Masters</td></tr>
+ <tr><td>  6. Thou Shalt have Fun</td></tr>
+</table>
+<br><br><br>
+<p id="footnote">"Your triumphs will earn you house points,<br>while any rule breaking will lose house points."</p>
+</div>
+{% endblock %}

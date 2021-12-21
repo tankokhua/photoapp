@@ -1,0 +1,30 @@
+{
+  "Gryffindor":{
+    "1": ["modestovalde", "huifen", "suklee", "mtlee", "kiewjs", "howboonseng", "chuaszemin", "jdomingo"],
+    "2": ["yanghao", "mdantiochia", "kongmin", "jrmalics", "derzhan", "choonhian", "hanny", "hanjian"],
+    "3": ["lixin", "chengshua", "tkoh", "rsumaputra", "lrdeguzm", "nyetyun", "etseah", "karthiks"],
+    "4": ["vguillermo", "ahsia", "weekiat", "rbmacabi", "anqin", "joannlee", "raymondang", "clorenz"]
+  },                                                                                                                                 
+                                                                                                                                     
+  "Hufflepuff":{                                                                                                                     
+    "1": ["teckyeelim", "ravins", "chuakc", "rogerhor", "ngcw", "manakdunggau", "hychong", "ehgan"],
+    "2": ["allee", "limkl", "yewmeng", "bcchiam", "rajjul", "jglim", "ysgoh", "grajasekar", "jiajun"],
+    "3": ["gordonchin", "kctong", "yshong", "lchung", "jsmedina", "christinecky", "yping", "honpeiling", "boonpin"],
+    "4": ["tanchiayng", "imkeh", "khoosianyong", "empeleo", "jdsolomo", "lamsoonleong", "evanter", "pohhong"]
+  },                                                                                                                           
+
+  "Ravenclaw":{
+    "1": ["kchia", "louisegohth", "chinhoi", "kienhan", "cranchores", "christinelis", "wongshihnern", "petersee"],
+    "2": ["andychowlt", "klai", "ahmadmazhar", "ggerard", "joycetuge", "liyan", "soonyee", "sengyew"],
+    "3": ["laimei", "teheexyan", "tmkoh", "bennyong", "yixuan", "anila", "rachmatw", "eileentanyl", "siangleong"],
+    "4": ["oeg", "cgarcia", "tanchunseng", "mongsoon", "siaufen", "carlineteh", "kianchai", "ckyew"]
+  },                                                                                                                           
+
+  "Slytherin":{
+    "1": ["amyloi", "simonlai", "pgdelac", "cheekheng", "cheehau", "boonzhiu", "jamestacata", "cheauhuey"],
+    "2": ["kcheng", "hanjiong", "chewkorkiat", "seahyc", "tankkiang", "jefferykong", "balakumaranr", "kahweng", "tazumi"],
+    "3": ["mccolina", "fong", "huaiseng", "linglili",  "slkl", "thyeo", "scydesmond", "vernonlim", "dhika"],
+    "4": ["tankai", "leongkw", "jlgaray", "ranganathan", "yeewan", "zhanghong", "stanleylai", "xiaowen"]
+  }
+}
+

@@ -1,0 +1,170 @@
+body {
+        background-color: black;
+        background-image:url('/static/images/dining_hall.jpg');
+	font-family: arial, sans-serif;
+}
+
+a
+{
+    color: #960;
+}
+
+#menu h1 a {
+    text-decoration: none;
+    color: #960;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+
+#menu {
+    background-color: #ff9;
+    border-top: 3px solid #960;
+    height: 100%;
+    overflow:hidden;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+#menu h1 {
+    font-size: 20px;
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 0 0 .3em;
+    color: #960;
+    font-family:HogwartsWizard;
+}
+
+#menu li {
+    font-size: 14px;
+    display: inline;
+    padding: .5em;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: right;
+    float:right;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    font-family:HogwartsWizard;
+}
+
+#menu li a.selected {
+    color: black;
+    text-decoration: none;
+}
+
+#header {
+        margin-left:auto;
+        margin-right:auto;
+	padding: 4px;
+	margin-top: 20px;
+        color:#ffffff;
+        font-size:60px;
+        text-align:center;
+        font-family:harryPotterFont;
+
+}
+
+#house { 
+            margin-left:auto;
+            margin-right:auto;
+            color:#ff9;
+            text-align:center;
+            font-size:24px;
+            font-family:HogwartsWizard;
+}
+#feast { 
+            margin-left:auto;
+            margin-right:auto;
+            color:#ff9;
+            text-align:center;
+            font-size:24px;
+            font-family:HogwartsWizard;
+}
+#rules { 
+            margin-left:auto;
+            margin-right:auto;
+            color:#ff9;
+            text-align:center;
+            font-size:28px;
+            font-family:HogwartsWizard;
+}
+
+input[type="button"] { 
+     margin-left:auto;
+     margin-right:auto;
+     width:180px;
+     font-size:18px;
+     font-family:"Comic Sans MS", cursive, sans-serif;
+     background-color:#ff9;
+     color:#960;
+}
+#batch {
+        border:3px solid #ffff66;
+        display: none;
+}
+#digit {
+        font-weight:normal;
+        color:yellow;
+        display: none;
+        font-size:40px;
+        font-family:harryPotterFont;
+}
+#lname {
+        font-weight:normal;
+        color:#00ffff;
+        display: none;
+        font-family:Hagrid;
+}
+#desc  {
+        font-weight:normal;
+        color:#66FF33;
+        display: none;
+        font-size:40px;
+        font-family:harryPotterFont;
+}
+
+audio {
+        width:280px;
+        display:block;
+}
+
+@font-face
+{
+ font-family: harryPotterFont;
+ src:url('/static/fonts/HarryP.TTF'),
+     url('/static/fonts/HarryP.eot');
+}
+@font-face
+{
+ font-family: Lumos;
+ src:url('/static/fonts/Lumos.TTF'),
+     url('/static/fonts/Lumos.eot');
+}
+@font-face
+{
+ font-family: HogwartsWizard;
+ src:url('/static/fonts/HogwartsWizard.TTF'),
+     url('/static/fonts/HogwartsWizard.eot');
+}
+@font-face
+{
+ font-family: Hagrid;
+ src:url('/static/fonts/Hagrid.TTF'),
+     url('/static/fonts/Hagrid.eot');
+}
+
+#item { 
+            margin-left:auto;
+            margin-right:auto;
+            color:white;
+            text-align:left;   
+            font-size:22px;
+         /* font-family:"Comic Sans MS", cursive, sans-serif;*/
+            font-family:HogwartsWizard;
+}
