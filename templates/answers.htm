@@ -1,1 +1,11 @@
-<div id="answers" align="center"><p>{{answers}}</p></div>
+<div id="answers">
+{% if not error %}
+<p>Click on the image to download it.</p>
+<a href="/static/images/{{class}}/{{orderid}}" download>
+<img src="/static/images/{{class}}/{{orderid}}" alt="Photo not found." class="thumbnail" />
+</a>
+{% endif %}
+{% if error %}
+   <h2>Incorrect ORDER ID</h2>
+{% endif %}
+</div>
