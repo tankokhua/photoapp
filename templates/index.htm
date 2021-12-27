@@ -4,46 +4,16 @@
 <style type="text/css">
    .container {
       margin-left: 20px;
-      margin-top: 10px;
    }
+
    #answers {
       margin-top: 10px;
       font-size:15pt;
       margin-bottom: 10px;
    }
+
    button {
       margin-left: 15px;
-      margin-top: 35px;
-      height:35px;
-   }
-
-   .plabel {
-      padding-right:10px;
-   }
-   
-   .squaredotted {
-      width: 60px;
-      height: 60px;
-      line-height: 60px;
-      border: 1px dotted green;
-      margin-bottom: 5px;
-      margin-left: 5px;
-      text-align: center;
-      float: left;
-      color: gray;
-      background-color: lightgreen;
-   }
-   .buffer {
-      width: 60px;
-      height: 60px;
-      line-height: 60px;
-      border: 1px dotted white;
-      margin-bottom: 5px;
-      margin-left: 5px;
-      text-align: center;
-      float: left;
-      color: white;
-      background-color: white;
    }
 
    .thumbnail {
@@ -78,19 +48,21 @@
 {% endblock %}
 
 {% block bodycontent %}
-<h3>Photo Download</h3>
+<h2>Photo Download</h2>
 <form>
    <div class="row">
+      <div>
+        <label for="score">Enter 12-characters photo ID (e.g. AK002EDGVVXB):</label>
+     </div>
       <div class="form-group">
-        <label for="score">Enter photo ID (e.g. AK002EDGVVXB):</label>
-        <input type="text" class="form-control col-9" id="score" value={{score}}>
+        <input type="text" class="form-control" id="score" value={{score}}>
       </div>
-      <div class="row">
-         <button type="button" class="btn btn-primary" onclick="getPhoto();">Submit</button>
+      <div>
+        <button type="button" class="btn btn-primary" onclick="getPhoto();">Submit</button>
       </div>
    </div>
    <div class="row">
-      <div class="shadow border border-success rounded text-center col-10" id="answers">{{answers}}</div>
+      <div id="answers">{{answers}}</div>
    </div>
 </form>
 {% endblock %}

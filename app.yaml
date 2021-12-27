@@ -27,6 +27,7 @@ handlers:
 
 skip_files:
 - static/audio/.*
+- drafts/.*
 - scripts/.*
 - ^(.*/)+\.svn/.* 
 - .*\.pyc 

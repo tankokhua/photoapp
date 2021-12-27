@@ -29,6 +29,10 @@ def process_order(orderid):
     
     if not re.search(r'^([0-9A-Z]+)$', orderid):
        ret = -1
+
+    if len(orderid)!=12 and len(orderid)!=5:
+       ret = -1
+
     group = orderid[0:2] 
 
     # Can't access sandbox
