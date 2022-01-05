@@ -1,11 +1,11 @@
 <div id="answers">
 {% if not error %}
-<p style="color:#ffffff'">Click on the image to download it.</p>
+<p style="color:#ffffff;font-size:12px;">Click on the image below to download.</p>
 <a href="/static/images/{{class}}/{{orderid}}" download>
 <img src="/static/images/{{class}}/{{orderid}}" alt="Photo not found." class="thumbnail" />
 </a>
 {% endif %}
 {% if error %}
-   <h2>Incorrect ORDER ID</h2>
+   <p style="color:#ffffff;font-size:12px">Incorrect ORDER ID. Please try again.</p>
 {% endif %}
 </div>
