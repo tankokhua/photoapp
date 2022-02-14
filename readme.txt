@@ -23,6 +23,7 @@ o. Powershell (run as adminstrator)
 
 
 o. Run in runtime: python27
+   - In PowerShell (Admin mode)
    - PS> c:\python27\python.exe 'C:\Users\KokHua\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin\dev_appserver.py' app.yaml
    - Click on 'default' Link in localhost:8000/instances
    - Will be directed to localhost:8080
