@@ -1,4 +1,4 @@
-{% extends "templates/_base.htm" %}
+{% extends "_base.htm" %}
 
 {% block stylesheet %}
 <style type="text/css">
@@ -30,13 +30,13 @@
 	    //$(document).ready(function() {
 	    //});
             function getPhoto() {
-                var score = document.getElementById("score").value;
+                var photoid = document.getElementById("photoid").value;
                 
                 $("#answers").html("Running ...");
                 $.ajax( {
                     type:'POST',
                     url:'/getPhoto',
-                    data:{'score': score
+                    data:{'photoid': photoid
                     },
                     cache:false,
                     success: function(html) {$("#answers").html(html);},
@@ -52,10 +52,10 @@
 <form class="dlphoto" style="margin-left1:-20px;">
    <div class="row">
       <div>
-        <label style="color:#ffffff;" for="score">Enter 12-characters photo ID (e.g. AK002EDGVVXB):</label>
+        <label style="color:#ffffff;" for="photoid">Enter 12-characters photo ID (e.g. AK002EDGVVXB):</label>
      </div>
       <div class="form-group">
-        <input type="text" class="form-control" id="score" value={{score}}>
+        <input type="text" class="form-control" id="photoid" value={{photoid}}>
       </div>
       <div>
         <button type="button" class="btn btn-primary" onclick="getPhoto();">Submit</button>

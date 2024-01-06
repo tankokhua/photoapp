@@ -14,17 +14,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import jinja2
-import webapp2
+from flask import Flask, render_template, request
 import os
 import logging
 import re
 
-jinja_environment = jinja2.Environment(loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
+app = Flask(__name__)
+
+logging.basicConfig(level=logging.INFO)
 
 def process_order(orderid):
     orderid = orderid.upper()
-    logging.info('rawscore %s' % orderid)
+    logging.info('photoid %s' % orderid)
     ret = 0
     
     if not re.search(r'^([0-9A-Z]+)$', orderid):
@@ -36,40 +37,30 @@ def process_order(orderid):
     group = orderid[0:2] 
 
     # Can't access sandbox
-#   if os.path.exists("static/images/%s/%s.JPG" % (group, rawscore)):
-#      logging.info('File exists')
+    if not os.path.exists("static/images/%s/%s.JPG" % (group, orderid)):
+       logging.info('Photo for %s does not exist.' % orderid)
+       ret = -1
 
     return ret, orderid, group 
 
-class PhotoHandler(webapp2.RequestHandler):
-    def post(self):
-        try:
-            status, orderid, group = process_order(self.request.get("score").strip())
-        except:
-            status = -1
-            orderid = process_order(self.request.get("score").strip())
+@app.route('/getPhoto', methods=['GET', 'POST'])
+def PhotoHandler():
+    try:
+        status, orderid, group = process_order(request.form.get("photoid").strip())
+    except:
+        status = -1
+        orderid = process_order(request.form.get("photoid").strip())
 
-        if status == 0:
-           status = None
+    if status == 0:
+       status = None
 
-        template_values = {
-                           "error": status,
-                           "class": group,
-                           "orderid": orderid + ".JPG",
-                          }
-        logging.info('template_values %s' % template_values)
-        template = jinja_environment.get_template('templates/answers.htm')
-        self.response.out.write(template.render(template_values))
+    _orderid = orderid + ".JPG"
 
-class MainHandler(webapp2.RequestHandler):
-    def get(self):
-        template_values = {
-                             "score":"",
-                          }
-        template = jinja_environment.get_template('templates/index.htm')
-        self.response.out.write(template.render(template_values))
+    return render_template("answers.htm", error=status, classid=group, orderid=_orderid)
 
-app = webapp2.WSGIApplication([
-                                ('/', MainHandler),
-                                ('/getPhoto', PhotoHandler),
-                              ], debug=True)
+@app.route('/', methods=['GET', 'POST'])
+def MainHandler():
+    return render_template("index.htm", photoid="")
+
+if __name__ == '__main__':
+   app.run(host='127.0.0.1', port=8080, debug=True)
